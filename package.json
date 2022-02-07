@@ -1,0 +1,20 @@
+{
+  "name": "Reader",
+  "version": "0.1.0",
+  "description": "Tries to identify problems.",
+  "main": "index.js",
+  "scripts": {
+    "start": "sh main.sh"
+  },
+  "author": "Vikbor5342/Sign",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "express": "^4.17.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "node": "^16.6.2"
+  },
+  "keywords": []
+}
