@@ -18,7 +18,7 @@ client.login(Token);
 
 client.commands = new Discord.Collection();
 
-["event_handler", "command_handler"].forEach(handlers => {
+["event_handler"].forEach(handlers => {
   require(`./handlers/${handlers}.js`)(client);
 });
 keepAlive();
